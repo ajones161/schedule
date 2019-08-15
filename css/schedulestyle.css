@@ -1,0 +1,145 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Calibri;
+}
+
+hr {
+    border: 0;
+    background-image: linear-gradient(to right, transparent, #DBDBDB, transparent);
+    height: 1px;
+}
+
+#headTitle {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 110, 147, 1), rgba(130, 150, 0, 1));
+    padding: 20px 20px 20px 15%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#headTitle a {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#headTitle a:hover {
+    -webkit-animation: zomg 1s infinite;
+    animation: zomg 1s infinite;
+}
+
+@-webkit-keyframes zomg {
+
+    0%,
+    100% {
+        color: #7ccdea;
+    }
+
+    16% {
+        color: #0074d9;
+    }
+
+    32% {
+        color: #2ecc40;
+    }
+
+    48% {
+        color: #ffdc00;
+    }
+
+    64% {
+        color: #b10dc9;
+    }
+
+    80% {
+        color: #ff4136;
+    }
+}
+
+@keyframes zomg {
+
+    0%,
+    100% {
+        color: #7ccdea;
+    }
+
+    16% {
+        color: #0074d9;
+    }
+
+    32% {
+        color: #2ecc40;
+    }
+
+    48% {
+        color: #ffdc00;
+    }
+
+    64% {
+        color: #b10dc9;
+    }
+
+    80% {
+        color: #ff4136;
+    }
+}
+
+#toolBox {
+    text-align: right;
+    background-color: #00293A;
+    padding: 5px 14% 5px 5px;
+    color: white;
+}
+
+#toolBox a {
+    color:white;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#toolBox a:hover {
+    color:#829600;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#containBody {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: auto;
+}
+
+#foots {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing:border-box;
+    padding:5px;
+    background-color: #00293A;
+    color:white;
+    text-align:center;
+    font-size:25px;
+}
+.contact {
+    margin-left:45%;
+    width:10%;
+}
+.contact a {
+    color:white;
+}
+.contact a:hover {
+    -webkit-animation: zomg 1s infinite;
+    animation: zomg 1s infinite;
+}
