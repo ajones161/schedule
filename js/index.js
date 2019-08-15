@@ -5,7 +5,7 @@ window.onload = function () {
 function getWeather() {
   let key = '40761d56adc2e36a1b97bc999252c84f';
   let cityID = '6138517';
-  fetch('http://api.openweathermap.org/data/2.5/weather?id=' +
+  fetch('https://api.openweathermap.org/data/2.5/weather?id=' +
     cityID + '&appid=' + key + '&units=metric').then(result => {
     return result.json();
   }).then(result => {
