@@ -16,7 +16,6 @@ hr {
     padding: 20px 20px 20px 15%;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 #headTitle a {
@@ -27,11 +26,11 @@ hr {
 }
 
 #headTitle a:hover {
-    -webkit-animation: zomg 1s infinite;
-    animation: zomg 1s infinite;
+    -webkit-animation: allthewaaaaay 1s infinite;
+    animation: allthewaaaaay 1s infinite;
 }
 
-@-webkit-keyframes zomg {
+@-webkit-keyframes allthewaaaaay {
 
     0%,
     100% {
@@ -59,7 +58,7 @@ hr {
     }
 }
 
-@keyframes zomg {
+@keyframes allthewaaaaay {
 
     0%,
     100% {
@@ -95,7 +94,7 @@ hr {
 }
 
 #toolBox a {
-    color:white;
+    color: white;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
@@ -103,43 +102,107 @@ hr {
 }
 
 #toolBox a:hover {
-    color:#829600;
+    color: #829600;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
+.toolBold {
+    font-weight:bold;
+}
+
 #containBody {
     width: 80%;
     height: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     box-sizing: border-box;
     text-align: center;
     overflow: auto;
 }
+
 
 #foots {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    box-sizing:border-box;
-    padding:5px;
+    box-sizing: border-box;
+    padding: 5px 0px;
     background-color: #00293A;
-    color:white;
-    text-align:center;
-    font-size:25px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
-.contact {
-    margin-left:45%;
-    width:10%;
+
+#foots a {
+    color: white;
 }
-.contact a {
-    color:white;
+
+#foots a:hover {
+    -webkit-animation: allthewaaaaay 1s infinite;
+    animation: allthewaaaaay 1s infinite;
 }
-.contact a:hover {
-    -webkit-animation: zomg 1s infinite;
-    animation: zomg 1s infinite;
+
+
+/* medium */
+@media screen and (min-width: 700px) {
+    #headTitle {
+        width: 100%;
+        padding: 2% 2% 2% 5%;
+        margin: 0;
+        text-align:left;
+    }
+
+    #containBody {
+        width:100%;
+        margin-left:0px;
+    }
+
+    #toolBox {
+        text-align: right;
+        background-color: #00293A;
+        padding: 5px 5% 5px 5px;
+        }
+    .toolBold {display:inline-block;}
+}
+/* tiny */
+@media screen and (max-width: 700px) {
+    #headTitle {
+        width: 100%;
+        padding: 5%;
+        margin: 0;
+        text-align:center;
+    }
+#containBody {
+    width:100%;
+    margin-left:0px;
+    padding:0px;
+}
+.toolBold {display:none;}
+    #toolBox {
+        padding-right:0%;
+        text-align:center;
+    }
+}
+/* bigsize */
+@media screen and (min-width: 1200px) {
+    #headTitle {
+        width: 100%;
+        padding: 20px 20px 20px 14%;
+        margin: 0;
+        text-align:left;
+    }
+
+    #containBody {
+        width:80%;
+        margin:auto;
+    }
+    #toolBox {
+        text-align: right;
+    background-color: #00293A;
+    padding: 5px 14% 5px 5px;
+    }
 }
