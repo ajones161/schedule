@@ -85,7 +85,7 @@ function buildGrid(text) {
                 case "Fraser Morehouse":
                     teacher = "fm";
                     break;
-                case "Steve Monk":
+                case "Stephen Monk":
                     teacher = "sm";
                     break;
                 case "Shane Somerville":
@@ -159,8 +159,8 @@ function checkSchedule() {
                 let nodeTimeE = nodeTimeS + 90;
 
                 if (check >= nodeTimeS && check <= nodeTimeE) {
-                    checkNode.classList.add('highlight');
-                    console.log("worked");
+                    if(checkNode.classList.contains(checkDay))
+                    {checkNode.classList.add('highlight');}
                 }
             }
         }
