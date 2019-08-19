@@ -157,7 +157,6 @@ function checkSchedule() {
                 let check = parseInt(checkTime);
                 let nodeTimeS = parseInt(checkNode.id);
                 let nodeTimeE = nodeTimeS + 90;
-
                 if (check >= nodeTimeS && check <= nodeTimeE) {
                     if(checkNode.classList.contains(checkDay))
                     {checkNode.classList.add('highlight');}
