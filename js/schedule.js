@@ -170,7 +170,7 @@ function checkSchedule() {
                     nodeTimeE = nodeTimeS + 490;
                 }
                 else {
-                    let nodeTimeE = nodeTimeS + 90;
+                    nodeTimeE = nodeTimeS + 90;
                 }
                 if (check >= nodeTimeS && check <= nodeTimeE) {
                     if (checkNode.classList.contains(checkDay)) {
