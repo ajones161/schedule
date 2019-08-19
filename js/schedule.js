@@ -156,10 +156,26 @@ function checkSchedule() {
             if (checkNode.id != "") {
                 let check = parseInt(checkTime);
                 let nodeTimeS = parseInt(checkNode.id);
-                let nodeTimeE = nodeTimeS + 90;
+                let nodeTimeE;
+                if (checkNode.classList.contains("w2")) {
+                    nodeTimeE = nodeTimeS + 190;
+                }
+                if (checkNode.classList.contains("w3")) {
+                    nodeTimeE = nodeTimeS + 290;
+                } 
+                if (checkNode.classList.contains("w4")) {
+                    nodeTimeE = nodeTimeS + 390;
+                }
+                if (checkNode.classList.contains("w5")) {
+                    nodeTimeE = nodeTimeS + 490;
+                }
+                else {
+                    let nodeTimeE = nodeTimeS + 90;
+                }
                 if (check >= nodeTimeS && check <= nodeTimeE) {
-                    if(checkNode.classList.contains(checkDay))
-                    {checkNode.classList.add('highlight');}
+                    if (checkNode.classList.contains(checkDay)) {
+                        checkNode.classList.add('highlight');
+                    }
                 }
             }
         }
