@@ -1,0 +1,156 @@
+{
+    "classes": [
+        {
+            "monday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Database Programming",
+                    "teacherName": "Cathy Burchill"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "Business for IT Professionals",
+                    "teacherName": "Chris London"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "Hybrid Mobile Development",
+                    "teacherName": "Stephen Monk"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---"
+                }
+            ]
+        },
+        {
+            "tuesday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Intermediate SQL",
+                    "teacherName": "Stephen Monk"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "Business for IT Professionals",
+                    "teacherName": "Chris London"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---"
+                },
+                {
+                    "width": 3,
+                    "classStart": 1330,
+                    "className": "Database Programming",
+                    "teacherName": "Cathy Burchill"
+                }
+            ]
+        },
+        {
+            "wednesday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Hybrid Mobile Development",
+                    "teacherName": "Stephen Monk"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "Database Programming",
+                    "teacherName": "Cathy Burchill"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "Intermediate SQL",
+                    "teacherName": "Stephen Monk"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---"
+                }
+            ]
+        },
+        {
+            "thursday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Hybrid Mobile Development",
+                    "teacherName": "Stephen Monk"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "Business for IT Professionals",
+                    "teacherName": "Chris London"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---"
+                },
+                {
+                    "width": 3,
+                    "classStart": 1330,
+                    "className": "Database Programming",
+                    "teacherName": "Cathy Burchill"
+                }
+            ]
+        },
+        {
+            "friday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Intermediate SQL",
+                    "teacherName": "Stephen Monk"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "Database Programming",
+                    "teacherName": "Cathy Burchill"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---"
+                },
+                {
+                    "width": 3,
+                    "classStart": 1330,
+                    "className": "Spare",
+                    "teacherName": "---"
+                }
+            ]
+        }
+    ] 
+}

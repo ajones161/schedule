@@ -1,27 +1,182 @@
-
-window.onload=function() {
-    let file = "schedule.json";
+window.onload = function () {
+    let file;
+    let getTitle = document.getElementById('headTitle');
+    let className = getTitle.className;
+    switch (className) {
+        case "pa2":
+            file = "/jsons/pa2.json";
+            break;
+        case "na2":
+            file = "/jsons/na2.json";
+            break;
+        case "c1":
+            file = "/jsons/c1.json";
+            break;
+        case "c2":
+            file = "/jsons/c2.json";
+            break;
+        case "c3":
+            file = "/jsons/c3.json";
+            break;
+        default:
+            break;
+    }
     var xml = new XMLHttpRequest();
     xml.onreadystatechange = function () {
         if (xml.readyState === 4 && xml.status === 200) {
-            build(xml.responseText);
+            buildGrid(xml.responseText);
         }
     };
     xml.open("GET", file, true);
     xml.send();
+}
 
+function buildGrid(text) {
+    let data, schedule;
+    data = JSON.parse(text);
+    schedule = data.classes;
+    let grid = document.querySelector("#containBody");
+
+    for (let i = 0; i < schedule.length; i++) {
+        let dow;
+
+
+        switch (i) {
+            case 0:
+                dow = "monday";
+                break;
+            case 1:
+                dow = "tuesday";
+                break;
+            case 2:
+                dow = "wednesday";
+                break;
+            case 3:
+                dow = "thursday";
+                break;
+            case 4:
+                dow = "friday";
+                break;
+            default:
+                break;
+        }
+
+        let day = schedule[i];
+
+        for (let j = 0; j < day[dow].length; j++) {
+
+            let checking = day[dow][j];
+            let teacher;
+            let width;
+
+            switch (checking.teacherName) {
+                case "---":
+                    teacher = "unsort";
+                    break;
+                case "Cathy Burchill":
+                    teacher = "cb";
+                    break;
+                case "Chris London":
+                    teacher = "cl";
+                    break;
+                case "Peter McDevitt":
+                    teacher = "pmcd";
+                    break;
+                case "Fraser Morehouse":
+                    teacher = "fm";
+                    break;
+                case "Steve Monk":
+                    teacher = "sm";
+                    break;
+                case "Shane Somerville":
+                    teacher = "ss";
+                    break;
+                case "Deborah Irvine Anderson":
+                    teacher = "dia";
+                    break;
+                case "Martine Bernard":
+                    teacher = "mb";
+                    break;
+                default:
+                    teacher = "split";
+                    break;
+            }
+
+            width = 'w' + checking.width;
+
+            let fillString = '<div id="' +
+                checking.classStart + '" class="' + dow + ' ' + teacher + ' ' + width + '">' +
+                checking.className + '<br>' + checking.teacherName + '</div>';
+
+
+            grid.innerHTML += fillString;
+        }
+    }
+
+    checkSchedule();
+} //end buildGrid
+
+function checkSchedule() {
     let d = new Date();
     let h = d.getHours();
     let m = d.getMinutes();
     let w = d.getDay();
-console.log(h,m,w);
-    //checkSchedule(h, m, w);
+
+
+    let checkDay;
+
+    switch (w) {
+        case 1:
+            checkDay = "monday"
+            break;
+        case 2:
+            checkDay = "tuesday"
+            break;
+        case 3:
+            checkDay = "wednesday"
+            break;
+        case 4:
+            checkDay = "thursday"
+            break;
+        case 5:
+            checkDay = "friday"
+            break;
+        default:
+            break;
+    }
+
+    let nodeList = document.querySelector('#containBody').childNodes;
+    let fullTime = h.toString() + m.toString();
+
+    let checkTime = checkShort(fullTime);
+
+    for (let i = 0; i < nodeList.length; i++) {
+        let checkNode = nodeList[i];
+        if (checkNode.id != undefined) { //for some reason my or wasn't working ¯\_(ツ)_/¯ NESTED IFS IT IS, BOYS
+            if (checkNode.id != "") {
+                let check = parseInt(checkTime);
+                let nodeTimeS = parseInt(checkNode.id);
+                let nodeTimeE = nodeTimeS + 90;
+
+                if (check >= nodeTimeS && check <= nodeTimeE) {
+                    checkNode.classList.add('highlight');
+                    console.log("worked");
+                }
+            }
+        }
+    }
 }
 
-//function checkSchedule(hour, minute, day) {
-    
-//};
+function checkShort(time) {
+    let hopefullyFour = time.length;
+    let fixed;
+    if (hopefullyFour == 3) {
+        let split = time.split("");
+        let splice = split.splice(2, 0, "0");
 
-//function buildSchedule() {
-//    JSON.parse
-//}
+        fixed = split.join("");
+    } else {
+        fixed = time;
+    }
+    return fixed;
+}

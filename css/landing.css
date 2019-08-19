@@ -275,13 +275,20 @@ hr {
     box-sizing: border-box;
     padding: 5px 0px;
     background-color: #00293A;
-    color: white;
     text-align: center;
-    font-size: 25px;
 }
 
 #foots a {
     color: white;
+    width:30px;
+    height:30px;
+    padding:5px;
+    box-sizing:border-box;
+    display:inline-block;
+    font-size:18px;
+    margin:0px 7px;
+    background-color:#829600;
+    border-radius: 30px;
 }
 
 #foots a:hover {
