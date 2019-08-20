@@ -1,7 +1,8 @@
 body {
-    background-color: white;
+    background-color: #282A36;
     margin: 0;
     font-family: Calibri;
+    color: rgb(253, 253, 241);
 }
 
 hr {
@@ -20,7 +21,7 @@ hr {
 
 #headTitle a {
     font-size: 30px;
-    color: white;
+    color: rgb(253, 253, 241);
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -90,11 +91,11 @@ hr {
     text-align: right;
     background-color: #00293A;
     padding: 5px 14% 5px 5px;
-    color: white;
+    color: rgb(253, 253, 241);
 }
 
 #toolBox a {
-    color: white;
+    color: rgb(253, 253, 241);
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
@@ -135,13 +136,13 @@ hr {
     margin-left: 5%;
     padding: 20px;
     box-sizing: border-box;
-    -webkit-box-shadow: 0 4px 16px rgba(128, 128, 128, .6);
-    -moz-box-shadow: 0 4px 16px rgba(128, 128, 128, .6);
-    box-shadow: 0 4px 16px rgba(128, 128, 128, .6);
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
 }
 
 #weatherWidge {
-    color: white;
+    color: rgb(253, 253, 241);
     background-size: cover;
     padding: 10px;
     overflow: auto;
@@ -165,7 +166,7 @@ hr {
     display: block;
     float: left;
     width: 70%;
-    border-left: 1px solid white;
+    border-left: 1px solid rgb(253, 253, 241);
     text-align: left;
     padding-left: 20px;
     box-sizing: border-box;
@@ -218,9 +219,9 @@ hr {
     width: 30%;
     padding: 20px;
     box-sizing: border-box;
-    -webkit-box-shadow: 0 4px 16px rgba(128, 128, 128, .6);
-    -moz-box-shadow: 0 4px 16px rgba(128, 128, 128, .6);
-    box-shadow: 0 4px 16px rgba(128, 128, 128, .6);
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
 }
 
 #controlPanel h1 {
@@ -229,7 +230,7 @@ hr {
     text-align: center;
     outline: none;
     font-size: 17px;
-    color: white;
+    color: rgb(253, 253, 241);
     text-transform: uppercase;
     margin-bottom: 10px;
     background-color: #006e93;
@@ -248,7 +249,7 @@ hr {
     font-size: 20px;
     background-color: #829600;
     margin-bottom: 10px;
-    color: white;
+    color: rgb(253, 253, 241);
     text-decoration: none;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
@@ -259,7 +260,7 @@ hr {
 }
 
 .content a:hover {
-    color: white;
+    color: rgb(253, 253, 241);
     background-color: green;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
@@ -279,7 +280,7 @@ hr {
 }
 
 #foots a {
-    color: white;
+    color: rgb(253, 253, 241);
     width:30px;
     height:30px;
     padding:5px;
@@ -448,7 +449,7 @@ hr {
     .fullcast {
         display: block;
         width: 70%;
-        border-left: 1px solid white;
+        border-left: 1px solid rgb(253, 253, 241);
         padding-left: 20px;
     }
 

@@ -169,9 +169,7 @@ function checkSchedule() {
                 if (checkNode.classList.contains("w5")) {
                     nodeTimeE = nodeTimeS + 490;
                 }
-                else {
-                    nodeTimeE = nodeTimeS + 90;
-                }
+                
                 if (check >= nodeTimeS && check <= nodeTimeE) {
                     if (checkNode.classList.contains(checkDay)) {
                         checkNode.classList.add('highlight');
