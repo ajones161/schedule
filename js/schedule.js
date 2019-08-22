@@ -106,6 +106,9 @@ function buildGrid(text) {
                 case "Martine Bernard":
                     teacher = "mb";
                     break;
+                case "George Daniels":
+                    teacher = "gd";
+                    break;
                 default:
                     teacher = "split";
                     break;
