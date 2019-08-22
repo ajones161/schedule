@@ -13,8 +13,8 @@ hr {
 
 #headTitle {
     width: 100%;
-    background-image: linear-gradient(to right, rgba(0, 110, 147, 1), rgba(130, 150, 0, 1));
     padding: 20px 20px 20px 15%;
+    background-image: linear-gradient(to right, rgb(140, 113, 175), rgb(107, 108, 194, 1));
     margin: 0;
     box-sizing: border-box;
 }
@@ -89,7 +89,7 @@ hr {
 
 #toolBox {
     text-align: right;
-    background-color: #00293A;
+    background-color: #16192b;
     padding: 5px 14% 5px 5px;
     color: rgb(253, 253, 241);
 }
@@ -103,7 +103,7 @@ hr {
 }
 
 #toolBox a:hover {
-    color: #829600;
+    color: #6272a4;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
@@ -233,7 +233,7 @@ hr {
     color: rgb(253, 253, 241);
     text-transform: uppercase;
     margin-bottom: 10px;
-    background-color: #006e93;
+    background-color: #171620;
     margin: 0;
     font-family: calibri;
     font-weight: 400;
@@ -247,7 +247,7 @@ hr {
     display: block;
     width:100%;
     font-size: 20px;
-    background-color: #829600;
+    background-color: #6272a4;
     margin-bottom: 10px;
     color: rgb(253, 253, 241);
     text-decoration: none;
@@ -260,8 +260,8 @@ hr {
 }
 
 .content a:hover {
-    color: rgb(253, 253, 241);
-    background-color: green;
+    color: black;
+    background-color: powderblue;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
@@ -275,7 +275,7 @@ hr {
     width: 100%;
     box-sizing: border-box;
     padding: 5px 0px;
-    background-color: #00293A;
+    background-color: #16192b;
     text-align: center;
 }
 
@@ -288,7 +288,7 @@ hr {
     display:inline-block;
     font-size:18px;
     margin:0px 7px;
-    background-color:#829600;
+    background-color:#6272a4;
     border-radius: 30px;
 }
 
@@ -354,7 +354,7 @@ hr {
 
     #toolBox {
     text-align: right;
-    background-color: #00293A;
+    background-color: #16192b;
     padding: 5px 5% 5px 5px;
     }
     .toolBold {display:inline-block;}
@@ -460,7 +460,7 @@ hr {
 
     #toolBox {
         text-align: right;
-    background-color: #00293A;
+    background-color: #16192b;
     padding: 5px 14% 5px 5px;
     }
 }
