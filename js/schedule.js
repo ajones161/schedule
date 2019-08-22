@@ -97,6 +97,15 @@ function buildGrid(text) {
                 case "Martine Bernard":
                     teacher = "mb";
                     break;
+                case "Jeff Morton":
+                    teacher = "jeff";
+                    break;
+                case "Joe Mariott":
+                    teacher = "joe";
+                    break;
+                case "Martine Bernard":
+                    teacher = "mb";
+                    break;
                 default:
                     teacher = "split";
                     break;
@@ -162,14 +171,14 @@ function checkSchedule() {
                 }
                 if (checkNode.classList.contains("w3")) {
                     nodeTimeE = nodeTimeS + 290;
-                } 
+                }
                 if (checkNode.classList.contains("w4")) {
                     nodeTimeE = nodeTimeS + 390;
                 }
                 if (checkNode.classList.contains("w5")) {
                     nodeTimeE = nodeTimeS + 490;
                 }
-                
+
                 if (check >= nodeTimeS && check <= nodeTimeE) {
                     if (checkNode.classList.contains(checkDay)) {
                         checkNode.classList.add('highlight');
