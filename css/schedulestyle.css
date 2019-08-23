@@ -118,15 +118,15 @@ hr {
     width: 80%;
     height: 100%;
     margin-left: 20%;
-    padding: 20px 0px 20px 50px;
+    padding: 20px 0px 20px 0px;
     box-sizing: border-box;
     text-align: center;
     overflow: auto;
     display: grid;
-    grid-template-columns: 11% 10% 10% 10% 10% 9% 10% 10% 10%;
+    grid-template-columns: 11% 11% 11% 11% 11% 9% 11% 11% 11%;
     grid-template-rows: 50px 50px 50px 50px 50px 50px;
-    grid-row-gap: 5px;
-    grid-column-gap: 5px;
+    grid-row-gap: 4px;
+    grid-column-gap: 4px;
 }
 
 .catmon {
@@ -198,22 +198,22 @@ hr {
 
 .fm {
     background-color: #8be9fd;
-    color:#282a36;
+    color: #282a36;
 }
 
 .jeff {
     background-color: #50fa7b;
-    color:#282a36;
+    color: #282a36;
 }
 
 .joe {
     background-color: #ffb86c;
-    color:#282a36;
+    color: #282a36;
 }
 
 .pmcd {
     background-color: #ff5555;
-    color:#282a36;
+    color: #282a36;
 }
 
 .sm {
@@ -293,17 +293,22 @@ hr {
 }
 
 #konami {
-    position:fixed;
-    left:0;
-    bottom:0;
-    width:300px;
-    height:314px;
-    background-image:url('/images/bing.png');
-    opacity:0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    height: 314px;
+    background-image: url('/images/bing.png');
+    opacity: 0;
+}
+
+.highlight {
+    background-color: #16192b !important;
+    color: rgb(253, 253, 241);
 }
 
 /* medium */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
     #headTitle {
         width: 100%;
         padding: 2% 2% 2% 5%;
@@ -313,8 +318,14 @@ hr {
 
     #containBody {
         width: 100%;
-        margin-left: 0px;
-        padding: 4% 0 0 4%;
+        margin: auto;
+        padding: 5% 0 0 0;
+        font-size: .9em;
+        display: grid;
+        grid-template-columns: 11% 11% 11% 11% 11% 10.8% 11% 11% 11%;
+        grid-template-rows: 60px 60px 60px 60px 60px 60px;
+        grid-row-gap: 1px;
+        grid-column-gap: 1px;
     }
 
     #toolBox {
@@ -326,15 +337,16 @@ hr {
     .toolBold {
         display: inline-block;
     }
+
+    #mobileDiv {
+        display: none;
+    }
 }
 
-.highlight {
-    background-color: #16192b !important;
-    color: rgb(253, 253, 241);
-}
+
 
 /* tiny */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     #headTitle {
         width: 100%;
         padding: 5%;
@@ -343,9 +355,8 @@ hr {
     }
 
     #containBody {
-        width: 100%;
-        margin-left: 0px;
-        padding: 4% 0 0 0;
+        display: none;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px;
     }
 
     .toolBold {
@@ -356,6 +367,34 @@ hr {
         padding-right: 0%;
         text-align: center;
     }
+
+    #mobileDiv {
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding-top: 1%;
+        text-align: center;
+    }
+
+    .w1, .w2, .w3, .w4, .w5 {
+        height:80px;
+        font-size:1.5em;
+        line-height:1.5em;
+    }
+
+    .dayTitle {
+        width:100%;
+        margin-bottom:2px;
+        padding-top:4%;
+        box-sizing: border-box;
+        height:80px;
+        text-transform:capitalize;
+        font-size:1.5em;
+        line-height:1.5em;
+        background-color:#16192b;
+    }
+
+    
 }
 
 /* bigsize */
@@ -368,13 +407,24 @@ hr {
     }
 
     #containBody {
-        width: 80%;
+        width: 90%;
+        padding: 5% 0px 20px 0px;
         margin: auto;
+        font-size: 1em;
+        display: grid;
+        grid-template-columns: 11% 11% 11% 11% 11% 9% 11% 11% 11%;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px;
+        grid-row-gap: 4px;
+        grid-column-gap: 4px;
     }
 
     #toolBox {
         text-align: right;
         background-color: #16192b;
         padding: 5px 14% 5px 5px;
+    }
+
+    #mobileDiv {
+        display: none;
     }
 }

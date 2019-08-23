@@ -132,30 +132,12 @@ function checkSchedule() {
     let d = new Date();
     let h = d.getHours();
     let m = d.getMinutes();
-    let w = d.getDay();
 
 
-    let checkDay;
 
-    switch (w) {
-        case 1:
-            checkDay = "monday"
-            break;
-        case 2:
-            checkDay = "tuesday"
-            break;
-        case 3:
-            checkDay = "wednesday"
-            break;
-        case 4:
-            checkDay = "thursday"
-            break;
-        case 5:
-            checkDay = "friday"
-            break;
-        default:
-            break;
-    }
+    let checkDay = grabDay(d);
+
+
 
     let nodeList = document.querySelector('#containBody').childNodes;
     let fullTime = h.toString() + m.toString();
@@ -185,11 +167,40 @@ function checkSchedule() {
                 if (check >= nodeTimeS && check <= nodeTimeE) {
                     if (checkNode.classList.contains(checkDay)) {
                         checkNode.classList.add('highlight');
+                        break;
                     }
                 }
             }
         }
     }
+
+    fillMobile(checkDay, nodeList);
+}
+
+function grabDay(d) {
+    let w = d.getDay();
+    let checkDay;
+    switch (w) {
+        case 1:
+            checkDay = "monday"
+            break;
+        case 2:
+            checkDay = "tuesday"
+            break;
+        case 3:
+            checkDay = "wednesday"
+            break;
+        case 4:
+            checkDay = "thursday"
+            break;
+        case 5:
+            checkDay = "friday"
+            break;
+        default:
+            break;
+    }
+
+    return checkDay;
 }
 
 function checkShort(time) {
@@ -204,4 +215,23 @@ function checkShort(time) {
         fixed = time;
     }
     return fixed;
+}
+
+function fillMobile(day, nodes) {
+    let mobileDiv = document.querySelector('#mobileDiv');
+    mobileDiv.innerHTML = '<div class="dayTitle">' + day + '</div>';
+    for (let i = 0; i < nodes.length; i++) {
+        let checkNode = nodes[i];
+        if (checkNode.id != undefined) {
+            if (checkNode.id != "") {
+                if (checkNode.classList.contains(day)) {
+                    mobileDiv.innerHTML += checkNode.outerHTML;
+                }
+            }
+        }
+
+    }
+
+    console.log(nodes);
+    console.log(day);
 }
