@@ -380,11 +380,12 @@ hr {
         height:80px;
         font-size:1.5em;
         line-height:1.5em;
+        margin-bottom:2px;
     }
 
     .dayTitle {
         width:100%;
-        margin-bottom:2px;
+        margin-bottom:4px;
         padding-top:4%;
         box-sizing: border-box;
         height:80px;
