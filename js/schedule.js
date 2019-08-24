@@ -118,7 +118,7 @@ function buildGrid(text) {
 
             let fillString = '<div id="' +
                 checking.classStart + '" class="' + dow + ' ' + teacher + ' ' + width + '">' +
-                checking.className + '<br>' + checking.teacherName + '</div>';
+                checking.className + '<br>' + checking.teacherName + checking.roomNumber + '</div>';
 
 
             grid.innerHTML += fillString;
@@ -219,19 +219,21 @@ function checkShort(time) {
 
 function fillMobile(day, nodes) {
     let mobileDiv = document.querySelector('#mobileDiv');
-    mobileDiv.innerHTML = '<div class="dayTitle">' + day + '</div>';
-    for (let i = 0; i < nodes.length; i++) {
-        let checkNode = nodes[i];
-        if (checkNode.id != undefined) {
-            if (checkNode.id != "") {
-                if (checkNode.classList.contains(day)) {
-                    mobileDiv.innerHTML += checkNode.outerHTML;
+    if (day == undefined) {
+        mobileDiv.innerHTML = '<div class="dayTitle"> Weekend! </div>';
+    } else {
+        mobileDiv.innerHTML = '<div class="dayTitle">' + day + '</div>';
+        for (let i = 0; i < nodes.length; i++) {
+            let checkNode = nodes[i];
+            if (checkNode.id != undefined) {
+                if (checkNode.id != "") {
+                    if (checkNode.classList.contains(day)) {
+                        mobileDiv.innerHTML += checkNode.outerHTML;
+                    }
                 }
             }
-        }
 
+        }
     }
 
-    console.log(nodes);
-    console.log(day);
 }

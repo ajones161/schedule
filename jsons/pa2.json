@@ -6,31 +6,36 @@
                     "width": 2,
                     "classStart": 830,
                     "className": "Database Programming",
-                    "teacherName": "Cathy Burchill"
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
                     "className": "Business for IT Professionals",
-                    "teacherName": "Chris London"
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
-                    "teacherName": "---"
+                    "teacherName": "---",
+                    "roomNumber": ""
                 },
                 {
                     "width": 2,
                     "classStart": 1330,
                     "className": "Hybrid Mobile Development",
-                    "teacherName": "Stephen Monk"
+                    "teacherName": "Stephen Monk",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 1,
                     "classStart": 1530,
                     "className": "Spare",
-                    "teacherName": "---"
+                    "teacherName": "---",
+                    "roomNumber": ""
                 }
             ]
         },
@@ -40,25 +45,29 @@
                     "width": 2,
                     "classStart": 830,
                     "className": "Intermediate SQL",
-                    "teacherName": "Stephen Monk"
+                    "teacherName": "Stephen Monk",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
                     "className": "Business for IT Professionals",
-                    "teacherName": "Chris London"
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
-                    "teacherName": "---"
+                    "teacherName": "---",
+                    "roomNumber": ""
                 },
                 {
                     "width": 3,
                     "classStart": 1330,
                     "className": "Database Programming",
-                    "teacherName": "Cathy Burchill"
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057"
                 }
             ]
         },
@@ -68,31 +77,36 @@
                     "width": 2,
                     "classStart": 830,
                     "className": "Hybrid Mobile Development",
-                    "teacherName": "Stephen Monk"
+                    "teacherName": "Stephen Monk",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
                     "className": "Database Programming",
-                    "teacherName": "Cathy Burchill"
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
-                    "teacherName": "---"
+                    "teacherName": "---",
+                    "roomNumber": ""
                 },
                 {
                     "width": 2,
                     "classStart": 1330,
                     "className": "Intermediate SQL",
-                    "teacherName": "Stephen Monk"
+                    "teacherName": "Stephen Monk",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 1,
                     "classStart": 1530,
                     "className": "Spare",
-                    "teacherName": "---"
+                    "teacherName": "---",
+                    "roomNumber": ""
                 }
             ]
         },
@@ -102,25 +116,29 @@
                     "width": 2,
                     "classStart": 830,
                     "className": "Hybrid Mobile Development",
-                    "teacherName": "Stephen Monk"
+                    "teacherName": "Stephen Monk",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
                     "className": "Business for IT Professionals",
-                    "teacherName": "Chris London"
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
-                    "teacherName": "---"
+                    "teacherName": "---",
+                    "roomNumber": ""
                 },
                 {
                     "width": 3,
                     "classStart": 1330,
                     "className": "Database Programming",
-                    "teacherName": "Cathy Burchill"
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057"
                 }
             ]
         },
@@ -130,25 +148,29 @@
                     "width": 2,
                     "classStart": 830,
                     "className": "Intermediate SQL",
-                    "teacherName": "Stephen Monk"
+                    "teacherName": "Stephen Monk",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
                     "className": "Database Programming",
-                    "teacherName": "Cathy Burchill"
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
-                    "teacherName": "---"
+                    "teacherName": "---",
+                    "roomNumber": ""
                 },
                 {
                     "width": 3,
                     "classStart": 1330,
                     "className": "Spare",
-                    "teacherName": "---"
+                    "teacherName": "---",
+                    "roomNumber": ""
                 }
             ]
         }
