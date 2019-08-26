@@ -341,6 +341,10 @@ hr {
     #mobileDiv {
         display: none;
     }
+
+    .mobileTimes {
+        display:none;
+    }
 }
 
 
@@ -376,47 +380,39 @@ hr {
         text-align: center;
     }
 
-    .w1 {
-        height:80px;
-        font-size:1.5em;
-        line-height:1.5em;
-        margin-bottom:2px;
+    .w1,.w2,.w3,.w4,.w5 {
+        width: 70%;
+        height: 70px;
+        font-size: 1.4em;
+        line-height: 1.4em;
+        margin-bottom: 2px;
+        display:inline-block;
     }
 
-    .w2 {
-        height:160px;
-        font-size:1.5em;
-        line-height:1.5em;
-        margin-bottom:2px;
-    }
-
-    .w3 {
-        height:240px;
-        font-size:1.5em;
-        line-height:1.5em;
-        margin-bottom:2px;
-    }
-
-    .w4 {
-        height:320px;
-        font-size:1.5em;
-        line-height:1.5em;
-        margin-bottom:2px;
+    .mobileTimes {
+        display:inline-block;
+        width: 30%;
+        height:70px;
+        font-size: 1.4em;
+        line-height: 1.4em;
+        margin-bottom: 2px;
+        background-color: #1a1e30;
+        padding-top:6px;
     }
 
     .dayTitle {
-        width:100%;
-        margin-bottom:4px;
-        padding-top:4%;
+        width: 100%;
+        margin-bottom: 4px;
+        padding-top: 2%;
         box-sizing: border-box;
-        height:80px;
-        text-transform:capitalize;
-        font-size:1.5em;
-        line-height:1.5em;
-        background-color:#16192b;
+        height: 60px;
+        text-transform: capitalize;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        background-color: #16192b;
     }
 
-    
+
 }
 
 /* bigsize */
@@ -448,5 +444,9 @@ hr {
 
     #mobileDiv {
         display: none;
+    }
+
+    .mobileTimes {
+        display:none;
     }
 }

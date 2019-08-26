@@ -151,6 +151,9 @@ function checkSchedule() {
                 let check = parseInt(checkTime);
                 let nodeTimeS = parseInt(checkNode.id);
                 let nodeTimeE;
+                if (checkNode.classList.contains("w1")) {
+                    nodeTimeE = nodeTimeS + 90;
+                }
                 if (checkNode.classList.contains("w2")) {
                     nodeTimeE = nodeTimeS + 190;
                 }
@@ -228,6 +231,9 @@ function fillMobile(day, nodes) {
             if (checkNode.id != undefined) {
                 if (checkNode.id != "") {
                     if (checkNode.classList.contains(day)) {
+                        let endTime = grabTime(checkNode);
+                        let startTime = formatTimes(checkNode.id);
+                        mobileDiv.innerHTML += '<div class="mobileTimes">' + startTime + '<br>' + endTime + '</div>'
                         mobileDiv.innerHTML += checkNode.outerHTML;
                     }
                 }
@@ -236,4 +242,41 @@ function fillMobile(day, nodes) {
         }
     }
 
+}
+
+function grabTime(checkNode) {
+    let nodeTimeS = parseInt(checkNode.id);
+    let grabbed;
+    if(checkNode.classList.contains("w1")) {
+        grabbed = nodeTimeS + 90;
+    }
+    if (checkNode.classList.contains("w2")) {
+        grabbed = nodeTimeS + 190;
+    }
+    if (checkNode.classList.contains("w3")) {
+        grabbed = nodeTimeS + 290;
+    }
+    if (checkNode.classList.contains("w4")) {
+        grabbed = nodeTimeS + 390;
+    }
+    if (checkNode.classList.contains("w5")) {
+        grabbed = nodeTimeS + 490;
+    } 
+    changed = formatTimes(grabbed.toString());
+    return changed;
+}
+
+function formatTimes(time) {
+    let fixed;
+
+    let split = time.split("");
+    if (split.length == 3) {
+        let splice = split.splice(1, 0, ":");
+    } else {
+        let splice = split.splice(2, 0, ":");
+    }
+
+    fixed = split.join("");
+
+    return fixed;
 }
