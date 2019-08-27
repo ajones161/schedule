@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "monday": [
+                {
+                    "width": 0,
+                    "classStart": 830,
+                    "className": "",
+                    "teacherName": "",
+                    "roomNumber": " C2057"
+                },
+                {
+                    "width": 0,
+                    "classStart": 920,
+                    "className": "",
+                    "teacherName": "",
+                    "roomNumber": " "
+                }
+            ]
+        },
+        {
+            "tuesday": [
+                {
+                    "width": 0,
+                    "classStart": 830,
+                    "className": "",
+                    "teacherName": "",
+                    "roomNumber": " C2057"
+                }
+            ]
+        },
+        {
+            "wednesday": [
+                {
+                    "width": 0,
+                    "classStart": 830,
+                    "className": "",
+                    "teacherName": "",
+                    "roomNumber": " C2057"
+                }
+            ]
+        },
+        {
+            "thursday": [
+                {
+                    "width": 0,
+                    "classStart": 830,
+                    "className": "",
+                    "teacherName": "",
+                    "roomNumber": " C2057"
+                }
+            ]
+        },
+        {
+            "friday": [
+                {
+                    "width": 0,
+                    "classStart": 830,
+                    "className": "",
+                    "teacherName": "",
+                    "roomNumber": " C2057"
+                }
+            ]
+        }
+    ] 
+}
