@@ -218,6 +218,16 @@ hr {
     color: #bd93f9;
 }
 
+.split {
+    width:50%;
+    float:left;
+    box-sizing:border-box;
+}
+
+.split:first-of-type {
+    border-right:2px solid #8be9fd;
+}
+
 #foots {
     position: fixed;
     left: 0;
@@ -351,15 +361,25 @@ hr {
 
     .w1,
     .w2,
-    .w3,
     .w4,
     .w5 {
         width: 70%;
         height: 70px;
         font-size: 1.4em;
         line-height: 1.4em;
-        margin-bottom: 2px;
+        margin-bottom: 0px;
         display: inline-block;
+        overflow:hidden;
+    }
+
+    .w3 {
+        width: 70%;
+        height: 70px;
+        font-size: 1.4em;
+        line-height: 1.4em;
+        margin-bottom: 0px;
+        display: inline-block;
+        overflow:hidden;
     }
 
     .mobileTimes {
@@ -368,9 +388,10 @@ hr {
         height: 70px;
         font-size: 1.4em;
         line-height: 1.4em;
-        margin-bottom: 2px;
+        margin-bottom: 0px;
         background-color: #1a1e30;
         padding-top: 6px;
+        overflow:hidden;
     }
 
     .dayTitle {

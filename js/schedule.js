@@ -12,15 +12,9 @@ window.onload = function () {
         case "na2":
             file = "/jsons/na2.json";
             break;
-        case "c1":
-            file = "/jsons/c1.json";
-            break;
-        case "c2":
-            file = "/jsons/c2.json";
-            break;
-        case "c3":
-            file = "/jsons/c3.json";
-            break;
+            //case "c1":
+            //    file = "/jsons/c1.json";
+            //    break;
             //case "pa1":
             //    file="/jsons/pa1.json";
             //    break;
@@ -78,10 +72,23 @@ function buildGrid(text) {
             let checking = day[dow][j];
             let colour;
             let width;
+            let fillString;
 
             switch (checking.year) {
                 case "pa2":
                     colour = "pa2";
+                    break;
+                case "na2":
+                    colour = "na2";
+                    break;
+                case "it11":
+                    colour = "it11";
+                    break;
+                case "it12":
+                    colour = "it12";
+                    break;
+                case "it13":
+                    colour = "na2";
                     break;
                 default:
                     colour = "it1Shared";
@@ -90,9 +97,21 @@ function buildGrid(text) {
             /* This applies a class I have set aside to determine the grid width of the item currently being dropped in. */
             width = 'w' + checking.width;
 
-            let fillString = '<div id="' +
-                checking.classStart + '" class="' + dow + ' ' + colour + ' ' + width + '">' +
-                checking.className + '<br>' + checking.teacherName + checking.roomNumber + '</div>';
+            let innerString = checking.className + '<br>' + checking.teacherName + checking.roomNumber;
+            let innerString2 = checking.className2 + '<br>' + checking.teacherName2 + checking.roomNumber2;
+
+            if (checking.type == undefined) {
+                fillString = '<div id="' +
+                    checking.classStart + '" class="' + dow + ' ' + colour + ' ' + width + '">' +
+                    checking.className + '<br>' + checking.teacherName + checking.roomNumber + '</div>';
+            } 
+            else if (checking.type == "split") {
+                fillString = '<div id="' +
+                    checking.classStart + '" class="' + dow + ' ' + colour + ' ' + width + '">' +
+                    '<div class="split">' + innerString + '</div>' +'<div class="split">' + innerString2 + '</div>' +
+                     '</div>';
+            } 
+
 
             grid.innerHTML += fillString;
         }
