@@ -5,69 +5,86 @@
                 {
                     "width": 2,
                     "classStart": 830,
-                    "className": "Database Programming",
-                    "teacherName": "Cathy Burchill",
-                    "roomNumber": " C2057"
+                    "className": "Systems Analysis",
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "Business for IT",
-                    "teacherName": "Chris London",
-                    "roomNumber": " C2057"
+                    "className": "PHP",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
                     "teacherName": "---",
-                    "roomNumber": ""
+                    "roomNumber": "",
+                    "year": "pa2"
                 },
                 {
                     "width": 2,
                     "classStart": 1330,
-                    "className": "Hybrid Mobile Dev.",
-                    "teacherName": "Stephen Monk",
-                    "roomNumber": " C2057"
+                    "className": "Java",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1530,
-                    "className": "Spare",
-                    "teacherName": "---",
-                    "roomNumber": ""
+                    "className": "Employment",
+                    "teacherName": "A. Arseneau",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 }
             ]
         },
         {
             "tuesday": [
                 {
-                    "width": 2,
+                    "width": 3,
                     "classStart": 830,
-                    "className": "Intermediate SQL",
-                    "teacherName": "Stephen Monk",
-                    "roomNumber": " C2057"
+                    "className": "Entrepreneurship",
+                    "teacherName": "Chris London",
+                    "roomNumber": " E2001",
+                    "year": "pa2"
                 },
                 {
-                    "width": 2,
+                    "width": 1,
                     "classStart": 1030,
-                    "className": "Business for IT",
-                    "teacherName": "Chris London",
-                    "roomNumber": " C2057"
+                    "className": "Tutorial",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
                     "teacherName": "---",
-                    "roomNumber": ""
+                    "roomNumber": "",
+                    "year": "pa2"
                 },
                 {
-                    "width": 3,
+                    "width": 2,
                     "classStart": 1330,
-                    "className": "Database Programming",
-                    "teacherName": "Cathy Burchill",
-                    "roomNumber": " C2057"
+                    "className": "PHP",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1330,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "pa2"
                 }
             ]
         },
@@ -76,69 +93,86 @@
                 {
                     "width": 2,
                     "classStart": 830,
-                    "className": "Hybrid Mobile Dev.",
-                    "teacherName": "Stephen Monk",
-                    "roomNumber": " C2057"
+                    "className": "Java",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "Database Programming",
-                    "teacherName": "Cathy Burchill",
-                    "roomNumber": " C2057"
+                    "className": "Employment",
+                    "teacherName": "A. Arseneau",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
                     "teacherName": "---",
-                    "roomNumber": ""
+                    "roomNumber": "",
+                    "year": "pa2"
                 },
                 {
                     "width": 2,
                     "classStart": 1330,
-                    "className": "Intermediate SQL",
-                    "teacherName": "Stephen Monk",
-                    "roomNumber": " C2057"
+                    "className": "Systems Analysis",
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1530,
-                    "className": "Spare",
-                    "teacherName": "---",
-                    "roomNumber": ""
+                    "className": "Mechatronics",
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 }
             ]
         },
         {
             "thursday": [
                 {
-                    "width": 2,
+                    "width": 3,
                     "classStart": 830,
-                    "className": "Hybrid Mobile Dev.",
-                    "teacherName": "Stephen Monk",
-                    "roomNumber": " C2057"
+                    "className": "Entrepreneurship",
+                    "teacherName": "Chris London",
+                    "roomNumber": " E2001",
+                    "year": "pa2"
                 },
                 {
-                    "width": 2,
+                    "width": 1,
                     "classStart": 1030,
-                    "className": "Business for IT",
-                    "teacherName": "Chris London",
-                    "roomNumber": " C2057"
+                    "className": "Tutorial",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
                     "teacherName": "---",
-                    "roomNumber": ""
+                    "roomNumber": "",
+                    "year": "pa2"
                 },
                 {
-                    "width": 3,
+                    "width": 2,
                     "classStart": 1330,
-                    "className": "Database Programming",
-                    "teacherName": "Cathy Burchill",
-                    "roomNumber": " C2057"
+                    "className": "PHP",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "pa2"
                 }
             ]
         },
@@ -147,31 +181,44 @@
                 {
                     "width": 2,
                     "classStart": 830,
-                    "className": "Intermediate SQL",
-                    "teacherName": "Stephen Monk",
-                    "roomNumber": " C2057"
+                    "className": "Java",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "Database Programming",
-                    "teacherName": "Cathy Burchill",
-                    "roomNumber": " C2057"
+                    "className": "Systems Analysis",
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1230,
                     "className": "Lunch",
                     "teacherName": "---",
-                    "roomNumber": ""
+                    "roomNumber": "",
+                    "year": "pa2"
                 },
                 {
-                    "width": 3,
+                    "width": 2,
                     "classStart": 1330,
+                    "className": "Mechatronics",
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
                     "className": "Spare",
                     "teacherName": "---",
-                    "roomNumber": ""
+                    "roomNumber": "",
+                    "year": "pa2"
                 }
+                
             ]
         }
     ] 

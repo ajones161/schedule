@@ -1,4 +1,7 @@
 window.onload = function () {
+    /* This small switch looks for a tag embedded in the header title, which tells it which class json to look for.
+    Once the switch picks the right json, it dumps it into an intentionally vague variable to be loaded into an xml request.
+    I could have just copied the script into a .js file for every page, but this means I have less documents to look after. */
     let file;
     let getTitle = document.getElementById('headTitle');
     let className = getTitle.className;
@@ -18,9 +21,16 @@ window.onload = function () {
         case "c3":
             file = "/jsons/c3.json";
             break;
+            //case "pa1":
+            //    file="/jsons/pa1.json";
+            //    break;
+            //case "na1":
+            //    file="/jsons/na1.json";
+            //    break;
         default:
             break;
     }
+
     var xml = new XMLHttpRequest();
     xml.onreadystatechange = function () {
         if (xml.readyState === 4 && xml.status === 200) {
@@ -31,6 +41,7 @@ window.onload = function () {
     xml.send();
 }
 
+/* This function builds the schedule grid. First it parses the json it's passed. */
 function buildGrid(text) {
     let data, schedule;
     data = JSON.parse(text);
@@ -39,8 +50,6 @@ function buildGrid(text) {
 
     for (let i = 0; i < schedule.length; i++) {
         let dow;
-
-
         switch (i) {
             case 0:
                 dow = "monday";
@@ -60,66 +69,30 @@ function buildGrid(text) {
             default:
                 break;
         }
-
+        /* This grabs the day of the week, which then lets me cycle through and apply the appropriate colour
+        and then dump it into the grid div.*/
         let day = schedule[i];
 
         for (let j = 0; j < day[dow].length; j++) {
 
             let checking = day[dow][j];
-            let teacher;
+            let colour;
             let width;
 
-            switch (checking.teacherName) {
-                case "---":
-                    teacher = "unsort";
-                    break;
-                case "Cathy Burchill":
-                    teacher = "cb";
-                    break;
-                case "Chris London":
-                    teacher = "cl";
-                    break;
-                case "Peter McDevitt":
-                    teacher = "pmcd";
-                    break;
-                case "Fraser Morehouse":
-                    teacher = "fm";
-                    break;
-                case "Stephen Monk":
-                    teacher = "sm";
-                    break;
-                case "Shane Somerville":
-                    teacher = "ss";
-                    break;
-                case "Deborah Irvine Anderson":
-                    teacher = "dia";
-                    break;
-                case "Martine Bernard":
-                    teacher = "mb";
-                    break;
-                case "Jeff Morton":
-                    teacher = "jeff";
-                    break;
-                case "Joe Mariott":
-                    teacher = "joe";
-                    break;
-                case "Martine Bernard":
-                    teacher = "mb";
-                    break;
-                case "George Daniels":
-                    teacher = "gd";
+            switch (checking.year) {
+                case "pa2":
+                    colour = "pa2";
                     break;
                 default:
-                    teacher = "split";
+                    colour = "it1Shared";
                     break;
             }
-
+            /* This applies a class I have set aside to determine the grid width of the item currently being dropped in. */
             width = 'w' + checking.width;
 
             let fillString = '<div id="' +
-                checking.classStart + '" class="' + dow + ' ' + teacher + ' ' + width + '">' +
+                checking.classStart + '" class="' + dow + ' ' + colour + ' ' + width + '">' +
                 checking.className + '<br>' + checking.teacherName + checking.roomNumber + '</div>';
-
 
             grid.innerHTML += fillString;
         }
@@ -133,11 +106,7 @@ function checkSchedule() {
     let h = d.getHours();
     let m = d.getMinutes();
 
-
-
     let checkDay = grabDay(d);
-
-
 
     let nodeList = document.querySelector('#containBody').childNodes;
     let fullTime = h.toString() + m.toString();
@@ -181,6 +150,8 @@ function checkSchedule() {
 }
 
 function grabDay(d) {
+    /* This function is basically the same as the one in buildGrid.
+    The only difference is that in buildGrid, Monday is 0 and not 1 because Sunday isn't accounted for in the json.*/
     let w = d.getDay();
     let checkDay;
     switch (w) {
@@ -247,7 +218,7 @@ function fillMobile(day, nodes) {
 function grabTime(checkNode) {
     let nodeTimeS = parseInt(checkNode.id);
     let grabbed;
-    if(checkNode.classList.contains("w1")) {
+    if (checkNode.classList.contains("w1")) {
         grabbed = nodeTimeS + 90;
     }
     if (checkNode.classList.contains("w2")) {
@@ -261,7 +232,7 @@ function grabTime(checkNode) {
     }
     if (checkNode.classList.contains("w5")) {
         grabbed = nodeTimeS + 490;
-    } 
+    }
     changed = formatTimes(grabbed.toString());
     return changed;
 }

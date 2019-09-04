@@ -188,65 +188,34 @@ hr {
 
 /* god have mercy on us if we have to use them */
 
-.cb {
+.pa2 {
     background-color: #44475a;
+    color:#50fa7b;
 }
 
-.cl {
-    background-color: #6272a4;
+.na2 {
+    background-color: #44475a;
+    color: #8be9fd;
 }
 
-.fm {
-    background-color: #8be9fd;
-    color: #282a36;
+.it11 {
+    background-color: #44475a;
+    color: #ffb86c;
 }
 
-.jeff {
-    background-color: #50fa7b;
-    color: #282a36;
+.it12 {
+    background-color: #44475a;
+    color: #ff5555;
 }
 
-.joe {
-    background-color: #ffb86c;
-    color: #282a36;
+.it13 {
+    background-color: #44475a;
+    color: #f1fa8c;
 }
 
-.pmcd {
-    background-color: #ff5555;
-    color: #282a36;
-}
-
-.sm {
-    background-color: #7e63a5;
-}
-
-.ss {
-    background-color: #f1fa8c;
-    color: #282a36;
-}
-
-.dia {
-    background-color: #ff79c6;
-    color: #282a36;
-}
-
-.mb {
-    background-color: #c7a361;
-    color: #282a36;
-}
-
-.gd {
-    background-color: #ff5555;
-    color: #282a36;
-}
-
-.split {
-    background-color: #f1fa8c;
-    color: #282a36;
-}
-
-.unsort {
-    background-color: #414141;
+.it1Shared {
+    background-color: #44475a;
+    color: #bd93f9;
 }
 
 #foots {
@@ -343,7 +312,7 @@ hr {
     }
 
     .mobileTimes {
-        display:none;
+        display: none;
     }
 }
 
@@ -380,24 +349,28 @@ hr {
         text-align: center;
     }
 
-    .w1,.w2,.w3,.w4,.w5 {
+    .w1,
+    .w2,
+    .w3,
+    .w4,
+    .w5 {
         width: 70%;
         height: 70px;
         font-size: 1.4em;
         line-height: 1.4em;
         margin-bottom: 2px;
-        display:inline-block;
+        display: inline-block;
     }
 
     .mobileTimes {
-        display:inline-block;
+        display: inline-block;
         width: 30%;
-        height:70px;
+        height: 70px;
         font-size: 1.4em;
         line-height: 1.4em;
         margin-bottom: 2px;
         background-color: #1a1e30;
-        padding-top:6px;
+        padding-top: 6px;
     }
 
     .dayTitle {
@@ -447,6 +420,6 @@ hr {
     }
 
     .mobileTimes {
-        display:none;
+        display: none;
     }
 }
