@@ -216,6 +216,7 @@ function checkShort(time) {
 function tooLarge(time) {
     let split = time.split("");
     let splice = split.splice(2,1);
+    time = split.join("");
     return time;
 }
 
