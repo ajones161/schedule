@@ -203,13 +203,14 @@ function checkShort(time) {
         let split = time.split("");
         let splice = split.splice(2, 0, "0");
 
-        fixed = split.join("");
-        
-        if(fixed >= 2400)
-        {tooLarge(fixed);}
+        fixed = split.join("");        
     } else {
         fixed = time;
     }    
+    
+    if(fixed >= 2400) {
+       fixed = tooLarge(fixed);
+    }
     return fixed;
 }
 
