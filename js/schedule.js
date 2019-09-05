@@ -199,7 +199,7 @@ function grabDay(d) {
 function checkShort(time) {
     let hopefullyFour = time.length;
     let fixed;
-    if (time >= 1200) {
+    if (time <= 1200) {
         fixed = time;
     } else {
         if (hopefullyFour == 3) {
