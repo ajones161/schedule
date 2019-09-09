@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bus Schedules</title>
+    <script src="/js/bus.js"></script>
+    <script src="https://kit.fontawesome.com/0555950873.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/bus.css">
+</head>
+<!-- code built by a.jones. all images used are from pexels.com -->
+
+<body>
+    <div id="headTitle"><a href="/landing.html">Bus Schedules</a></div>
+    <div id="toolBox">
+        <div class="toolBold">Schedules:</div>
+        <a href="/it1.html">Year 1</a> |
+        <a href="/na2.html">Year 2: NA</a> |
+        <a href="/pa2.html">Year 2: PA</a>
+    </div>
+    <div id="containSched">
+        <div class="input">
+            <select id="getRoute">
+                <option value="rt30">Route 30 - Champlain Heights</option>
+                <option value="rt33">Route 33 - Champlain Express</option>
+            </select>
+            <button type="button" id="sched">Go</button>
+        </div>
+        <br>
+        <div class="sched" id="r30">
+            <iframe src="https://docs.google.com/gview?url=https://www.saintjohn.ca/site/media/SaintJohn/Route%2030%20Champlain%20Heights%20Effective%20Feb%203,%202019.pdf&embedded=true" frameborder="0"></iframe>
+        </div>
+        <br>
+        <div class="sched" id="r33">
+            <iframe src="https://docs.google.com/gview?url=https://www.saintjohn.ca/site/media/SaintJohn/Route_33_Champlain_Express_May32015.pdf&embedded=true" frameborder="0"></iframe>
+        </div>
+    </div>
+    <br><br>
+    <div id="foots">
+        <a href="/" title="Home"><i class="fas fa-home"></i></a>
+        <a href="https://github.com/ajones161/schedule" title="Repo"><i class="fab fa-github"></i></i></a>
+    </div>
+    <br><br>
+</body>
+
+</html>

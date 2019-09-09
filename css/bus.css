@@ -1,0 +1,277 @@
+body {
+    background-color: #282A36;
+    margin: 0;
+    font-family: Calibri;
+    color: rgb(253, 253, 241);
+}
+
+hr {
+    border: 0;
+    background-image: linear-gradient(to right, transparent, #DBDBDB, transparent);
+    height: 1px;
+}
+
+#headTitle {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(140, 113, 175), rgb(107, 108, 194, 1));
+    padding: 20px 20px 20px 15%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#headTitle a {
+    font-size: 30px;
+    color: rgb(253, 253, 241);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#headTitle a:hover {
+    -webkit-animation: allthewaaaaay 1s infinite;
+    animation: allthewaaaaay 1s infinite;
+}
+
+@-webkit-keyframes allthewaaaaay {
+
+    0%,
+    100% {
+        color: #7ccdea;
+    }
+
+    16% {
+        color: #0074d9;
+    }
+
+    32% {
+        color: #2ecc40;
+    }
+
+    48% {
+        color: #ffdc00;
+    }
+
+    64% {
+        color: #b10dc9;
+    }
+
+    80% {
+        color: #ff4136;
+    }
+}
+
+@keyframes allthewaaaaay {
+
+    0%,
+    100% {
+        color: #7ccdea;
+    }
+
+    16% {
+        color: #0074d9;
+    }
+
+    32% {
+        color: #2ecc40;
+    }
+
+    48% {
+        color: #ffdc00;
+    }
+
+    64% {
+        color: #b10dc9;
+    }
+
+    80% {
+        color: #ff4136;
+    }
+}
+
+#toolBox {
+    text-align: right;
+    background-color: #16192b;
+    padding: 5px 14% 5px 5px;
+    color: rgb(253, 253, 241);
+}
+
+#toolBox a {
+    color: rgb(253, 253, 241);
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#toolBox a:hover {
+    color: #6272a4;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.toolBold {
+    font-weight: bold;
+}
+
+.containSched {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+iframe {
+    width:60%;
+    margin-left:20%;
+    height:800px;
+}
+
+.input {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 16px;
+}
+
+.input select,
+.input button {
+    font-size: 16px;
+    height: 23px;
+    box-sizing: border-box;
+}
+
+
+#foots {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0px;
+    background-color: #16192b;
+    text-align: center;
+}
+
+#foots a {
+    color: rgb(253, 253, 241);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0px 7px;
+    background-color: #6272a4;
+    border-radius: 30px;
+}
+
+#foots a:hover {
+    -webkit-animation: allthewaaaaay 1s infinite;
+    animation: allthewaaaaay 1s infinite;
+}
+
+#foots a:hover {
+    -webkit-animation: allthewaaaaay 1s infinite;
+    animation: allthewaaaaay 1s infinite;
+}
+
+#dayschedule {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px 0px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: auto;
+}
+
+#konami {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    height: 314px;
+    background-image: url('/images/bing.png');
+    opacity: 0;
+}
+
+.highlight {
+    background-color: #16192b !important;
+}
+
+/* medium */
+@media screen and (min-width: 600px) {
+    #headTitle {
+        width: 100%;
+        padding: 2% 2% 2% 5%;
+        margin: 0;
+        text-align: left;
+    }
+
+    #toolBox {
+        text-align: right;
+        background-color: #16192b;
+        padding: 5px 5% 5px 5px;
+    }
+
+    .toolBold {
+        display: inline-block;
+    }
+
+    iframe {
+        width:100%;
+        margin-left:0;
+        height:800px;
+    }
+
+}
+
+
+
+/* tiny */
+@media screen and (max-width: 600px) {
+    #headTitle {
+        width: 100%;
+        padding: 5%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .toolBold {
+        display: none;
+    }
+
+    #toolBox {
+        padding-right: 0%;
+        text-align: center;
+    }
+
+    iframe {
+        width:100%;
+        margin-left:0;
+        height:800px;
+    }
+
+}
+
+/* bigsize */
+@media screen and (min-width: 1200px) {
+    #headTitle {
+        width: 100%;
+        padding: 20px 20px 20px 14%;
+        margin: 0;
+        text-align: left;
+    }
+
+    #toolBox {
+        text-align: right;
+        background-color: #16192b;
+        padding: 5px 14% 5px 5px;
+    }
+
+    iframe {
+        width:60%;
+        margin-left:20%;
+        height:800px;
+    }
+}
