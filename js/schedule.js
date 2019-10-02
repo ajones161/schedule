@@ -35,6 +35,8 @@ window.onload = function () {
     xml.send();
 }
 
+window.onblur= function() {window.onfocus= function () {location.reload(true)}};
+
 /* This function builds the schedule grid. First it parses the json it's passed. */
 function buildGrid(text) {
     let data, schedule;
