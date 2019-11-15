@@ -2,6 +2,8 @@ window.onload = function () {
     /* This small switch looks for a tag embedded in the header title, which tells it which class json to look for.
     Once the switch picks the right json, it dumps it into an intentionally vague variable to be loaded into an xml request.
     I could have just copied the script into a .js file for every page, but this means I have less documents to look after. */
+    checkTimer();
+    
     let file;
     let getTitle = document.getElementById('headTitle');
     let className = getTitle.className;
@@ -31,6 +33,8 @@ window.onload = function () {
         bing.classList.remove("hide");
         bing.style.opacity = 1;
     }
+
+    
 }
 
 /* Reloads page on regaining focus. 
@@ -282,4 +286,29 @@ function formatTimes(time) {
     fixed = split.join("");
 
     return fixed;
+}
+
+function checkTimer() {
+    let countDownDate, x, now, distance, days, hours, minutes, seconds;
+    countDownDate = new Date("Dec 20, 2019 16:20:00").getTime();
+
+    x = setInterval(function () {
+
+        now = new Date().getTime();
+
+        distance = countDownDate - now;
+
+        days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("timer").innerHTML = days + "d " + hours + ":"
+            + minutes + ":" + seconds + " until end of term.";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timer").innerHTML = "EXPIRED";
+        }
+    }, 1000);
 }

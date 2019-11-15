@@ -285,6 +285,16 @@ hr {
     background-color: #16192b !important;
 }
 
+#timer {
+    width:100%;
+    margin:auto;
+    padding-top:20px;
+    text-align:center;
+    font-size:20px;
+    font-style:bold;
+    font-family:consolas;
+}
+
 
 /* medium */
 @media screen and (min-width: 600px) {
@@ -420,7 +430,7 @@ hr {
 
     #containBody {
         width: 90%;
-        padding: 5% 0px 20px 0px;
+        padding: 2% 0px 20px 0px;
         margin: auto;
         font-size: 1em;
         display: grid;
