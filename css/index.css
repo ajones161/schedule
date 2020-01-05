@@ -3,44 +3,464 @@ body {
     margin: 0;
     font-family: Calibri;
     color: rgb(253, 253, 241);
+}
+
+hr {
+    border: 0;
+    background-image: linear-gradient(to right, transparent, #DBDBDB, transparent);
+    height: 1px;
+}
+
+#headTitle {
+    width: 100%;
+    padding: 20px 20px 20px 15%;
+    background-image: linear-gradient(to right, rgb(140, 113, 175), rgb(107, 108, 194, 1));
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#headTitle a {
+    font-size: 30px;
+    color: rgb(253, 253, 241);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#headTitle a:hover {
+    -webkit-animation: allthewaaaaay 1s infinite;
+    animation: allthewaaaaay 1s infinite;
+}
+
+@-webkit-keyframes allthewaaaaay {
+
+    0%,
+    100% {
+        color: #7ccdea;
+    }
+
+    16% {
+        color: #0074d9;
+    }
+
+    32% {
+        color: #2ecc40;
+    }
+
+    48% {
+        color: #ffdc00;
+    }
+
+    64% {
+        color: #b10dc9;
+    }
+
+    80% {
+        color: #ff4136;
+    }
+}
+
+@keyframes allthewaaaaay {
+
+    0%,
+    100% {
+        color: #7ccdea;
+    }
+
+    16% {
+        color: #0074d9;
+    }
+
+    32% {
+        color: #2ecc40;
+    }
+
+    48% {
+        color: #ffdc00;
+    }
+
+    64% {
+        color: #b10dc9;
+    }
+
+    80% {
+        color: #ff4136;
+    }
+}
+
+#toolBox {
+    text-align: right;
+    background-color: #16192b;
+    padding: 5px 14% 5px 5px;
+    color: rgb(253, 253, 241);
+}
+
+#toolBox a {
+    color: rgb(253, 253, 241);
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#toolBox a:hover {
+    color: #6272a4;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.toolBold {
+    font-weight:bold;
+}
+
+#containBody {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+    text-align: center;
     overflow: auto;
 }
 
-#sidebar {
-    width: 20%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+#leftBox {
     float: left;
-    background-color: #262626;
-    border-right: 1px solid #191A21;
+    width: 60%;
 }
 
-#sidebar h1 {
-    font-weight:normal;
-    text-transform:uppercase;
-    padding-left:20px;
-}
-
-#sidebar a {
+.widgetBox {
     display: block;
+    CLEAR: LEFT;
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+}
+
+#weatherWidge {
+    color: rgb(253, 253, 241);
+    background-size: cover;
+    padding: 10px;
+    overflow: auto;
+}
+
+.cast {
+    background-color: rgba(0, 0, 0, 0.699);
+    overflow: auto;
+    padding: 10px 20px;
+}
+
+.temp {
+    font-size: 45px;
+    width: 20%;
+    float: left;
+    display: block;
+    padding-right: 20px;
+}
+
+.fullcast {
+    display: block;
+    float: left;
+    width: 70%;
+    border-left: 1px solid rgb(253, 253, 241);
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.rain {
+    background-image: url("/images/rain.jpg");
+}
+
+.fog {
+    background-image: url("/images/fog.jpg");
+}
+
+.lightning {
+    background-image: url("/images/lightning.jpg");
+}
+
+.snow {
+    background-image: url("/images/snow.jpg");
+}
+
+.clear {
+    background-image: url("/images/sun.jpg");
+}
+
+.clouds {
+    background-image: url("/images/sun.jpg");
+}
+
+.academicCalendar {
     width: 100%;
-    background-color: #262626;
+}
+
+.academicCalendar table {
+    width: 100%;
+    text-align: left;
+}
+
+.academicCalendar th:first-of-type {
+    width: 20%;
+}
+
+.academicCalendar td {
+    height: 20px;
+}
+
+#controlPanel {
+    position: fixed;
+    margin-left: 46%;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+}
+
+#controlPanel h1 {
+    padding: 7px;
+    width: 97%;
+    text-align: center;
+    outline: none;
+    font-size: 17px;
+    color: rgb(253, 253, 241);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: #171620;
+    margin: 0;
+    font-family: calibri;
+    font-weight: 400;
+}
+
+.content {
+    padding: 10px 0 0 0;
+}
+
+.content a {
+    display: block;
+    width:100%;
+    font-size: 20px;
+    background-color: #6272a4;
+    margin-bottom: 10px;
     color: rgb(253, 253, 241);
     text-decoration: none;
-    border-top: 1px solid #191A21;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    padding: 5px 0 5px 0;
+    box-sizing: border-box;
+}
+
+.content a:hover {
+    color: black;
+    background-color: powderblue;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#foots {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0px;
+    background-color: #16192b;
+    text-align: center;
+}
+
+#foots a {
+    color: rgb(253, 253, 241);
+    width:30px;
+    height:30px;
+    padding:5px;
     box-sizing:border-box;
-    padding:20px;
+    display:inline-block;
+    font-size:18px;
+    margin:0px 7px;
+    background-color:#6272a4;
+    border-radius: 30px;
 }
 
-#sidebar a:last-of-type {
-    border-bottom: 1px solid #191A21;
+#foots a:hover {
+    -webkit-animation: allthewaaaaay 1s infinite;
+    animation: allthewaaaaay 1s infinite;
 }
 
-#sidebar a:hover {
-    background-color:#34363E;
+
+/* medium */
+@media screen and (min-width: 700px) {
+    #headTitle {
+        width: 100%;
+        padding: 2% 2% 2% 5%;
+        margin: 0;
+        text-align:left;
+    }
+
+    #containBody {
+        width:100%;
+        margin-left:0px;
+    }
+
+    #leftBox {
+        width:60%;
+    }
+
+    .widgetBox {
+        width: 90%;
+    }
+    #controlPanel {
+        margin-left:60%;
+        width:35%;
+    }
+
+    #controlPanel h1 {
+        font-size: 15px;
+        width:100%;
+        padding:8px 0 8px 0;
+        margin:0;
+    }
+
+    .content {
+        padding:10px 0 0 0;
+    }
+
+    .content a {
+        width: 100%;
+        box-sizing:border-box;
+    }
+
+    .temp {
+        font-size: 45px;
+        width:100%;
+    }
+
+    .fullcast {
+        display: block;
+        width: 100%;
+        border-left: 0px;
+        padding-left: 0px;
+    }
+
+    #toolBox {
+    text-align: right;
+    background-color: #16192b;
+    padding: 5px 5% 5px 5px;
+    }
+    .toolBold {display:inline-block;}
+}
+/* tiny */
+@media screen and (max-width: 700px) {
+    #headTitle {
+        width: 100%;
+        padding: 5%;
+        margin: 0;
+        text-align:center;
+    }
+#containBody {
+    width:100%;
+    margin-left:0px;
+    padding:0px;
 }
 
-#mainbody {
-    padding: 10px;
+    #leftBox {
+        display:none;
+    }
+
+    .widgetBox {
+        display:none;
+    }
+
+    #controlPanel {
+        margin-left:0px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #controlPanel h1 {
+        width: 100%;
+        font-size: 15px;
+        box-sizing:border-box;
+    }
+
+    #calendar {
+        display:none;
+    }
+
+    .content a {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .toolBold {display:none;}
+    #toolBox {
+        padding-right:0%;
+        text-align:center;
+    }
+}
+/* bigsize */
+@media screen and (min-width: 1200px) {
+    #headTitle {
+        width: 100%;
+        padding: 20px 20px 20px 14%;
+        margin: 0;
+        text-align:left;
+    }
+
+    #containBody {
+        width:80%;
+        margin:auto;
+    }
+
+    #leftBox {
+        width:60%;
+    }
+    .widgetBox {
+        width: 90%;
+    }
+
+    #controlPanel {
+        position: fixed;
+        margin-left: 47%;
+        width: 30%;
+        padding: 20px;
+    }
+
+    #controlPanel h1 {
+        width:100%;
+        padding:8px 0 8px 0;
+    }
+
+    .temp {
+        font-size: 45px;
+        width: 20%;
+    }
+
+    .fullcast {
+        display: block;
+        width: 70%;
+        border-left: 1px solid rgb(253, 253, 241);
+        padding-left: 20px;
+    }
+
+    .content a {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #toolBox {
+        text-align: right;
+    background-color: #16192b;
+    padding: 5px 14% 5px 5px;
+    }
 }

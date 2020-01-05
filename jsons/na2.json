@@ -5,16 +5,16 @@
                 {
                     "width": 2,
                     "classStart": 830,
-                    "className": "WLAN",
-                    "teacherName": "Peter McDevitt",
-                    "roomNumber": " C2154",
+                    "className": "Applied Studies",
+                    "teacherName": "PMcD",
+                    "roomNumber": " C1002/E1019",
                     "year": "na2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "Windows Server",
-                    "teacherName": "Jeff Morton",
+                    "className": "Net Security",
+                    "teacherName": "Adam Stapledon",
                     "roomNumber": " C2154",
                     "year": "na2"
                 },
@@ -23,13 +23,13 @@
                     "classStart": 1230,
                     "className": "Lunch",
                     "teacherName": "---",
-                    "roomNumber": "",
+                    "roomNumber": " ",
                     "year": "na2"
                 },
                 {
                     "width": 2,
                     "classStart": 1330,
-                    "className": "Enterprise Vis.",
+                    "className": "Linux Admin",
                     "teacherName": "Adam Stapledon",
                     "roomNumber": " C2154",
                     "year": "na2"
@@ -47,28 +47,24 @@
         {
             "tuesday": [
                 {
-                    "width": 1,
+                    "width": 3,
                     "classStart": 830,
-                    "className": "Business",
-                    "teacherName": "G. Daniels",
-                    "roomNumber": " C2154",
-                    "year": "na2"
-                },
-                {
-                    "width": 2,
-                    "classStart": 1030,
-                    "className": "NCRC1164",
-                    "teacherName": "Heath Foley",
+                    "className": "Microsoft Exchange",
+                    "teacherName": "Jen Leclerc",
                     "roomNumber": " C2154",
                     "year": "na2"
                 },
                 {
                     "width": 1,
                     "classStart": 1130,
-                    "className": "Tutorial",
-                    "teacherName": "---",
-                    "roomNumber": "",
-                    "year": "na2"
+                    "className": "NSE",
+                    "className2":"Spare",
+                    "teacherName": "",
+                    "teacherName2":"---",
+                    "roomNumber": " E1019",
+                    "roomNumber2":" ",
+                    "year": "na2",
+                    "type": "split"
                 },
                 {
                     "width": 1,
@@ -79,44 +75,40 @@
                     "year": "na2"
                 },
                 {
-                    "width": 2,
+                    "width": 3,
                     "classStart": 1330,
-                    "className": "OSSE1085D",
-                    "teacherName": "Jeff Morton",
-                    "roomNumber": " C2154",
-                    "year": "na2"
-                },
-                {
-                    "width": 1,
-                    "classStart": 1530,
-                    "className": "Spare",
-                    "teacherName": "---",
-                    "roomNumber": "",
-                    "year": "na2"
+                    "className": "Net Security",
+                    "className2":"MS Exchange",
+                    "teacherName": "Adam",
+                    "teacherName2":"Jen",
+                    "roomNumber": " E1019",
+                    "roomNumber2":" C2154",
+                    "year": "na2",
+                    "type": "split"
                 }
             ]
         },
         {
             "wednesday": [
                 {
-                    "width": 3,
+                    "width": 2,
                     "classStart": 830,
-                    "className": "VoIP",
-                    "className2":"WLAN",
-                    "teacherName": "J. Morton",
-                    "teacherName2":"P. McDevitt",
-                    "roomNumber": " E1019",
-                    "roomNumber2":" C1002",
-                    "year": "na2",
-                    "type": "split"
+                    "className": "Advanced Win. Server",
+                    "teacherName": "Jen",
+                    "roomNumber": " C2154",
+                    "year": "na2"
                 },
                 {
-                    "width": 1,
-                    "classStart": 1130,
-                    "className": "Tutorial",
-                    "teacherName": "---",
-                    "roomNumber": "",
-                    "year": "na2"
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "App. Studies",
+                    "className2":"App. Studies",
+                    "teacherName": "Adam",
+                    "teacherName2":"PMcD",
+                    "roomNumber": " C1002/E1019",
+                    "roomNumber2":" C1002/E1019",
+                    "year": "na2",
+                    "type": "split"
                 },
                 {
                     "width": 1,
@@ -127,16 +119,20 @@
                     "year": "na2"
                 },
                 {
-                    "width": 3,
+                    "width": 1,
                     "classStart": 1330,
-                    "className2": "VoIP",
-                    "className":"WLAN",
-                    "teacherName2": "J. Morton",
-                    "teacherName":"P. McDevitt",
-                    "roomNumber2": " E1019",
-                    "roomNumber":" C1002",
-                    "year": "na2",
-                    "type": "split"
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na2"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1530,
+                    "className": "Linux",
+                    "teacherName": "Adam",
+                    "roomNumber": " C2154",
+                    "year": "na2"
                 }
             ]
         },
@@ -145,16 +141,16 @@
                 {
                     "width": 2,
                     "classStart": 830,
-                    "className": "Business",
-                    "teacherName": "George Daniels",
-                    "roomNumber": " C2154",
+                    "className": "App. Studies",
+                    "teacherName": "PMcD",
+                    "roomNumber": " C1002/E1019",
                     "year": "na2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "NCRC1164",
-                    "teacherName": "Heath Foley",
+                    "className": "Advanced Win. Server",
+                    "teacherName": "Jen",
                     "roomNumber": " C2154",
                     "year": "na2"
                 },
@@ -167,20 +163,16 @@
                     "year": "na2"
                 },
                 {
-                    "width": 1,
+                    "width": 3,
                     "classStart": 1330,
-                    "className": "WLAN",
-                    "teacherName": "P. McDevitt",
+                    "className": "MS Exchange",
+                    "className2":"Net Security",
+                    "teacherName": "Jen",
+                    "teacherName2":"Adam",
                     "roomNumber": " C2154",
-                    "year": "na2"
-                },
-                {
-                    "width": 2,
-                    "classStart": 1430,
-                    "className": "Enterprise Vis.",
-                    "teacherName": "Adam Stapledon",
-                    "roomNumber": " C2154",
-                    "year": "na2"
+                    "roomNumber2":" E1019",
+                    "year": "na2",
+                    "type": "split"
                 }
             ]
         },
@@ -189,16 +181,16 @@
                 {
                     "width": 2,
                     "classStart": 830,
-                    "className": "NCRC1164",
-                    "teacherName": "Heath Foley",
+                    "className": "Advanced Win. Server",
+                    "teacherName": "Jen",
                     "roomNumber": " C2154",
                     "year": "na2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "OSSE1085D",
-                    "teacherName": "Jeff Morton",
+                    "className": "Linux",
+                    "teacherName": "Adam",
                     "roomNumber": " C2154",
                     "year": "na2"
                 },
@@ -211,16 +203,20 @@
                     "year": "na2"
                 },
                 {
-                    "width": 2,
+                    "width": 1,
                     "classStart": 1330,
-                    "className": "Enterprise Vis.",
-                    "teacherName": "Adam Stapledon",
-                    "roomNumber": " C2154",
-                    "year": "na2"
+                    "className2": "NSE",
+                    "className":"Spare",
+                    "teacherName2": "",
+                    "teacherName":"---",
+                    "roomNumber2": " E1019",
+                    "roomNumber":" ",
+                    "year": "na2",
+                    "type": "split"
                 },
                 {
-                    "width": 1,
-                    "classStart": 1530,
+                    "width": 2,
+                    "classStart": 1430,
                     "className": "Spare",
                     "teacherName": "---",
                     "roomNumber": "",
