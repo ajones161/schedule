@@ -221,7 +221,7 @@
                 {
                     "width": 1,
                     "classStart": 830,
-                    "className": "PC Hardware",
+                    "className": "Linux",
                     "teacherName": "H. Foley",
                     "roomNumber": " C1042",
                     "year": "na1"
@@ -229,8 +229,8 @@
                 {
                     "width": 1,
                     "classStart": 1030,
-                    "className": "Linux",
-                    "teacherName": "H. Foley",
+                    "className": "Routing",
+                    "teacherName": "P. McDevitt",
                     "roomNumber": " C1042",
                     "year": "na1"
                 },
