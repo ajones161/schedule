@@ -207,7 +207,7 @@ function grabDay(d) {
 function checkShort(time) {
     let hopefullyFour = time.length;
     let fixed;
-    if (hopefullyFour < 3) {
+    if (hopefullyFour == 3) {
         let split = time.split("");
         let splice = split.splice(2, 0, "0");
 
