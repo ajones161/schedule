@@ -109,7 +109,7 @@ function buildGrid(text) {
             let innerString = checking.className + '<br>' + checking.teacherName + checking.roomNumber;
             let innerString2 = checking.className2 + '<br>' + checking.teacherName2 + checking.roomNumber2;
 
-            if (checking.type == undefined) {
+            if (checking.type === undefined) {
                 fillString = '<div id="' +
                     checking.classStart + '" class="' + dow + ' ' + colour + ' ' + width + '">' +
                     checking.className + '<br>' + checking.teacherName + checking.roomNumber + '</div>';
@@ -207,7 +207,7 @@ function grabDay(d) {
 function checkShort(time) {
     let hopefullyFour = time.length;
     let fixed;
-    if (hopefullyFour == 3) {
+    if (hopefullyFour === 3) {
         let split = time.split("");
         let splice = split.splice(2, 0, "0");
 
