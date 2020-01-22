@@ -5,16 +5,16 @@
                 {
                     "width": 2,
                     "classStart": 830,
-                    "className": "Systems Analysis",
-                    "teacherName": "Chris London",
+                    "className": "Alternate Solutions",
+                    "teacherName": "Steve",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "PHP",
-                    "teacherName": "Steve Monk",
+                    "className": "ISDP",
+                    "teacherName": "Chris",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 },
@@ -29,17 +29,17 @@
                 {
                     "width": 2,
                     "classStart": 1330,
-                    "className": "Java",
-                    "teacherName": "Steve Monk",
+                    "className": "Technical Writing",
+                    "teacherName": "AJ",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1530,
-                    "className": "Employment",
-                    "teacherName": "A. Arseneau",
-                    "roomNumber": " C2051",
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
                     "year": "pa2"
                 }
             ]
@@ -47,18 +47,18 @@
         {
             "tuesday": [
                 {
-                    "width": 3,
+                    "width": 2,
                     "classStart": 830,
-                    "className": "Entrepreneurship",
-                    "teacherName": "Chris London",
-                    "roomNumber": " E2001",
+                    "className": "Linux Fundamentals",
+                    "teacherName": "Dave Morris",
+                    "roomNumber": " C2051",
                     "year": "pa2"
                 },
                 {
-                    "width": 1,
-                    "classStart": 1130,
-                    "className": "Tutorial",
-                    "teacherName": "---",
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "ISDP",
+                    "teacherName": "Steve & Chris",
                     "roomNumber": "",
                     "year": "pa2"
                 },
@@ -73,8 +73,8 @@
                 {
                     "width": 2,
                     "classStart": 1330,
-                    "className": "PHP",
-                    "teacherName": "Steve Monk",
+                    "className": "ISDP",
+                    "teacherName": "Steve & Chris",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 },
@@ -93,16 +93,16 @@
                 {
                     "width": 2,
                     "classStart": 830,
-                    "className": "Java",
-                    "teacherName": "Steve Monk",
+                    "className": "Quality Assurance",
+                    "teacherName": "Steve",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "Employment",
-                    "teacherName": "A. Arseneau",
+                    "className": "Data Visualization",
+                    "teacherName": "Cathy",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 },
@@ -115,18 +115,10 @@
                     "year": "pa2"
                 },
                 {
-                    "width": 2,
+                    "width": 3,
                     "classStart": 1330,
-                    "className": "Systems Analysis",
-                    "teacherName": "Chris London",
-                    "roomNumber": " C2051",
-                    "year": "pa2"
-                },
-                {
-                    "width": 1,
-                    "classStart": 1530,
-                    "className": "Mechatronics",
-                    "teacherName": "Chris London",
+                    "className": "ISDP",
+                    "teacherName": "Chris & Steve",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 }
@@ -135,19 +127,27 @@
         {
             "thursday": [
                 {
-                    "width": 3,
+                    "width": 2,
                     "classStart": 830,
-                    "className": "Entrepreneurship",
-                    "teacherName": "Chris London",
-                    "roomNumber": " E2001",
+                    "className": "Linux Fundamentals",
+                    "teacherName": "Dave Morris",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1030,
+                    "className": "Data Visualization",
+                    "teacherName": "Cathy",
+                    "roomNumber": " C2051",
                     "year": "pa2"
                 },
                 {
                     "width": 1,
                     "classStart": 1130,
-                    "className": "Tutorial",
-                    "teacherName": "---",
-                    "roomNumber": "",
+                    "className": "Technical Writing",
+                    "teacherName": "AJ",
+                    "roomNumber": " C2051",
                     "year": "pa2"
                 },
                 {
@@ -159,19 +159,11 @@
                     "year": "pa2"
                 },
                 {
-                    "width": 2,
+                    "width": 3,
                     "classStart": 1330,
-                    "className": "PHP",
-                    "teacherName": "Steve Monk",
+                    "className": "ISDP",
+                    "teacherName": "Steve & Chris",
                     "roomNumber": " C2051",
-                    "year": "pa2"
-                },
-                {
-                    "width": 1,
-                    "classStart": 1530,
-                    "className": "Spare",
-                    "teacherName": "---",
-                    "roomNumber": "",
                     "year": "pa2"
                 }
             ]
@@ -179,18 +171,26 @@
         {
             "friday": [
                 {
-                    "width": 2,
+                    "width": 1,
                     "classStart": 830,
-                    "className": "Java",
-                    "teacherName": "Steve Monk",
+                    "className": "Alternate Solutions",
+                    "teacherName": "Steve",
+                    "roomNumber": " C2051",
+                    "year": "pa2"
+                },
+                {
+                    "width": 1,
+                    "classStart": 930,
+                    "className": "Quality Assurance",
+                    "teacherName": "Steve",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 },
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "Systems Analysis",
-                    "teacherName": "Chris London",
+                    "className": "Linux Fundamentals",
+                    "teacherName": "Dave Morris",
                     "roomNumber": " C2051",
                     "year": "pa2"
                 },
@@ -203,22 +203,13 @@
                     "year": "pa2"
                 },
                 {
-                    "width": 2,
+                    "width": 3,
                     "classStart": 1330,
-                    "className": "Mechatronics",
-                    "teacherName": "Chris London",
-                    "roomNumber": " C2051",
-                    "year": "pa2"
-                },
-                {
-                    "width": 1,
-                    "classStart": 1530,
                     "className": "Spare",
                     "teacherName": "---",
                     "roomNumber": "",
                     "year": "pa2"
-                }
-                
+                } 
             ]
         }
     ] 

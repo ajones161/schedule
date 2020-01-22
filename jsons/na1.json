@@ -1,0 +1,276 @@
+{
+    "classes": [
+        {
+            "monday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Linux Fundamentals",
+                    "teacherName": "Heath Foley",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "Microsoft Server",
+                    "teacherName": "Jeff Morton",
+                    "roomNumber": " C2154",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "PC Hardware",
+                    "className2":"Routing & Switching",
+                    "teacherName": "H. Foley",
+                    "teacherName2":"P. McDevitt",
+                    "roomNumber": " C1002",
+                    "roomNumber2":" E1019",
+                    "year": "na1",
+                    "type": "split"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                }
+            ]
+        },
+        {
+            "tuesday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Routing & Switching",
+                    "teacherName": "P. McDevitt",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1030,
+                    "className": "Employment Strats",
+                    "teacherName": "S. Livingstone",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1130,
+                    "className": "Tutorial",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "MSOS",
+                    "className2":"Linux",
+                    "teacherName": "J. Morton",
+                    "teacherName2":"H. Foley",
+                    "roomNumber": " C1002",
+                    "roomNumber2":" C1042",
+                    "year": "na1",
+                    "type": "split"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                }
+            ]
+        },
+        {
+            "wednesday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Linux",
+                    "className2":"Routing",
+                    "teacherName": "J. Morton",
+                    "teacherName2":"P. McDevitt",
+                    "roomNumber": " C1042",
+                    "roomNumber2":" E1019",
+                    "year": "na1",
+                    "type": "split"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "PC Hardware",
+                    "teacherName": "H. Foley",
+                    "roomNumber": " C2154",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Tutorial",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "PCH/MSOS",
+                    "className2":"Routing",
+                    "teacherName": "Heath & Jeff",
+                    "teacherName2":"P. McDevitt",
+                    "roomNumber": " C1002",
+                    "roomNumber2":" E1019",
+                    "year": "na1",
+                    "type": "split"
+                }
+            ]
+        },
+        {
+            "thursday": [
+                {
+                    "width": 1,
+                    "classStart": 830,
+                    "className": "PC Hardware",
+                    "teacherName": "Heath",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 930,
+                    "className": "Linux",
+                    "teacherName": "Heath",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "Routing",
+                    "className2":"Linux",
+                    "teacherName2": "J. Morton",
+                    "teacherName":"P. McDevitt",
+                    "roomNumber": " E1019",
+                    "roomNumber2":" C1002",
+                    "year": "na1",
+                    "type": "split"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "Routing",
+                    "className2":"PC Hardware",
+                    "teacherName2": "H. Foley",
+                    "teacherName":"P. McDevitt",
+                    "roomNumber": " E1019",
+                    "roomNumber2":" C1002",
+                    "year": "na1",
+                    "type": "split"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "MSOS",
+                    "teacherName": "J. Morton",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                }
+            ]
+        },
+        {
+            "friday": [
+                {
+                    "width": 1,
+                    "classStart": 830,
+                    "className": "Linux",
+                    "teacherName": "H. Foley",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1030,
+                    "className": "Routing",
+                    "teacherName": "P. McDevitt",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1130,
+                    "className2": "PCH/MSOS",
+                    "className":"Routing",
+                    "teacherName2": "Heath & Jeff",
+                    "teacherName":"P. McDevitt",
+                    "roomNumber2": " C1002",
+                    "roomNumber":" E1019",
+                    "year": "na1",
+                    "type": "split"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "Employment",
+                    "teacherName": "S. Livingstone",
+                    "roomNumber": " C1042",
+                    "year": "na1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "na1"
+                }
+            ]
+        }
+    ] 
+}

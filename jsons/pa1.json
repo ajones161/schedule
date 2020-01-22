@@ -1,0 +1,240 @@
+{
+    "classes": [
+        {
+            "monday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Object Oriented Programming",
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "Responsive Web Design",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": " ",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "Obj. Oriented Analysis & Design",
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "pa1"
+                }
+            ]
+        },
+        {
+            "tuesday": [
+                {
+                    "width": 1,
+                    "classStart": 830,
+                    "className": "Responsive Web",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 930,
+                    "className": "Javascript",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1030,
+                    "className": "Math & Stats",
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1130,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": " ",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": " ",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1330,
+                    "className": "Project Mgmt",
+                    "teacherName": "AJ Arseneau",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1430,
+                    "className": "Intro to SQL",
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                }
+            ]
+        },
+        {
+            "wednesday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "OOP",
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "OOAD",
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": " ",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "Database Design",
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "pa1"
+                }
+            ]
+        },
+        {
+            "thursday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Math & Stats",
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "OOAD",
+                    "teacherName": "Chris London",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": " ",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "Project Mgmt",
+                    "teacherName": "AJ Arseneau",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "pa1"
+                }
+            ]
+        },
+        {
+            "friday": [
+                {
+                    "width": 2,
+                    "classStart": 830,
+                    "className": "Intro to SQL",
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1030,
+                    "className": "OOP",
+                    "teacherName": "Cathy Burchill",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1230,
+                    "className": "Lunch",
+                    "teacherName": "---",
+                    "roomNumber": " ",
+                    "year": "pa1"
+                },
+                {
+                    "width": 2,
+                    "classStart": 1330,
+                    "className": "Javascript",
+                    "teacherName": "Steve Monk",
+                    "roomNumber": " C2057",
+                    "year": "pa1"
+                },
+                {
+                    "width": 1,
+                    "classStart": 1530,
+                    "className": "Spare",
+                    "teacherName": "---",
+                    "roomNumber": "",
+                    "year": "pa1"
+                }
+            ]
+        }
+    ] 
+}

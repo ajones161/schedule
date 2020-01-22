@@ -2,8 +2,7 @@ window.onload = function () {
     /* This small switch looks for a tag embedded in the header title, which tells it which class json to look for.
     Once the switch picks the right json, it dumps it into an intentionally vague variable to be loaded into an xml request.
     I could have just copied the script into a .js file for every page, but this means I have less documents to look after. */
-    checkTimer();
-    
+
     let file;
     let getTitle = document.getElementById('headTitle');
     let className = getTitle.className;
@@ -13,6 +12,12 @@ window.onload = function () {
             break;
         case "na2":
             file = "/jsons/na2.json";
+            break;
+        case "pa1":
+            file = "/jsons/pa1.json";
+            break;
+        case "na1":
+            file = "/jsons/na1.json";
             break;
         default:
             break;
@@ -34,12 +39,16 @@ window.onload = function () {
         bing.style.opacity = 1;
     }
 
-    
+
 }
 
 /* Reloads page on regaining focus. 
 Literally just so I can leave the page open without having to refresh manually every time I look at it again*/
-window.onblur = function () { window.onfocus = function () { location.reload(true) } };
+window.onblur = function () {
+    window.onfocus = function () {
+        location.reload(true)
+    }
+};
 
 /* This function builds the schedule grid. First it parses the json it's passed. */
 function buildGrid(text) {
@@ -87,17 +96,11 @@ function buildGrid(text) {
                 case "na2":
                     colour = "na2";
                     break;
-                case "it11":
-                    colour = "it11";
+                case "pa1":
+                    colour = "pa1";
                     break;
-                case "it12":
-                    colour = "it12";
-                    break;
-                case "it13":
-                    colour = "na2";
-                    break;
-                default:
-                    colour = "it1Shared";
+                case "na1":
+                    colour = "na1";
                     break;
             }
             /* This applies a class I have set aside to determine the grid width of the item currently being dropped in. */
@@ -106,12 +109,11 @@ function buildGrid(text) {
             let innerString = checking.className + '<br>' + checking.teacherName + checking.roomNumber;
             let innerString2 = checking.className2 + '<br>' + checking.teacherName2 + checking.roomNumber2;
 
-            if (checking.type == undefined) {
+            if (checking.type === undefined) {
                 fillString = '<div id="' +
                     checking.classStart + '" class="' + dow + ' ' + colour + ' ' + width + '">' +
                     checking.className + '<br>' + checking.teacherName + checking.roomNumber + '</div>';
-            }
-            else if (checking.type == "split") {
+            } else if (checking.type == "split") {
                 fillString = '<div id="' +
                     checking.classStart + '" class="' + dow + ' ' + colour + ' ' + width + '">' +
                     '<div class="split">' + innerString + '</div>' + '<div class="split">' + innerString2 + '</div>' +
@@ -205,12 +207,17 @@ function grabDay(d) {
 function checkShort(time) {
     let hopefullyFour = time.length;
     let fixed;
-    if (hopefullyFour == 3) {
+    if (hopefullyFour == 2) {
+        let split = time.split("");
+        let splice = split.splice(1, 0, "0");
+
+        fixed = split.join("");
+    } else if (hopefullyFour == 3) {
         let split = time.split("");
         let splice = split.splice(2, 0, "0");
 
         fixed = split.join("");
-    } else {
+    }else {
         fixed = time;
     }
 
@@ -286,29 +293,4 @@ function formatTimes(time) {
     fixed = split.join("");
 
     return fixed;
-}
-
-function checkTimer() {
-    let countDownDate, x, now, distance, days, hours, minutes, seconds;
-    countDownDate = new Date("Dec 20, 2019 16:20:00").getTime();
-
-    x = setInterval(function () {
-
-        now = new Date().getTime();
-
-        distance = countDownDate - now;
-
-        days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById("timer").innerHTML = days + "d " + hours + ":"
-            + minutes + ":" + seconds + " until end of term.";
-
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("timer").innerHTML = "EXPIRED";
-        }
-    }, 1000);
 }
