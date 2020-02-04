@@ -121,10 +121,12 @@ hr {
     box-sizing: border-box;
 }
 
-iframe {
-    width:60%;
-    margin-left:20%;
+object {
+    width:45%;
+    margin-left:3%;
+    float:left;
     height:800px;
+    margin-bottom:100px;
 }
 
 .input {
@@ -218,10 +220,17 @@ iframe {
         display: inline-block;
     }
 
-    iframe {
+    object {
         width:100%;
         margin-left:0;
         height:800px;
+    }
+
+    .input {
+        width: 100%;
+        text-align: center;
+        margin-top: 1%;
+        font-size: 16px;
     }
 
 }
@@ -246,10 +255,17 @@ iframe {
         text-align: center;
     }
 
-    iframe {
+    object {
         width:100%;
         margin-left:0;
         height:800px;
+    }
+
+    .input {
+        width: 100%;
+        text-align: center;
+        margin-top: 1%;
+        font-size: 16px;
     }
 
 }
@@ -269,9 +285,15 @@ iframe {
         padding: 5px 14% 5px 5px;
     }
 
-    iframe {
-        width:60%;
-        margin-left:20%;
+    object {
+        width:45%;
+        margin-left:3%;
+        float:left;
         height:800px;
+        margin-bottom:100px;
+    }
+
+    .input {
+        display:none;
     }
 }
