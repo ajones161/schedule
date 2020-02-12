@@ -13,7 +13,7 @@
                 {
                     "width": 2,
                     "classStart": 1030,
-                    "className": "Responsive Web Design",
+                    "className": "Javascript",
                     "teacherName": "Steve Monk",
                     "roomNumber": " C2057",
                     "year": "pa1"
@@ -47,16 +47,8 @@
         {
             "tuesday": [
                 {
-                    "width": 1,
+                    "width": 2,
                     "classStart": 830,
-                    "className": "Responsive Web",
-                    "teacherName": "Steve Monk",
-                    "roomNumber": " C2057",
-                    "year": "pa1"
-                },
-                {
-                    "width": 1,
-                    "classStart": 930,
                     "className": "Javascript",
                     "teacherName": "Steve Monk",
                     "roomNumber": " C2057",
@@ -133,7 +125,7 @@
                 {
                     "width": 2,
                     "classStart": 1330,
-                    "className": "Database Design",
+                    "className": "Intro to SQL",
                     "teacherName": "Cathy Burchill",
                     "roomNumber": " C2057",
                     "year": "pa1"
